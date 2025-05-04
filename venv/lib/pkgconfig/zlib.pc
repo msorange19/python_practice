@@ -1,0 +1,13 @@
+prefix=/Users/muhaiminulislam/Desktop/ai_engine/venv
+exec_prefix=/Users/muhaiminulislam/Desktop/ai_engine/venv
+libdir=/Users/muhaiminulislam/Desktop/ai_engine/venv/lib
+sharedlibdir=/Users/muhaiminulislam/Desktop/ai_engine/venv/lib
+includedir=/Users/muhaiminulislam/Desktop/ai_engine/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

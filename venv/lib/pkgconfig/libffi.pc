@@ -1,0 +1,11 @@
+prefix=/Users/muhaiminulislam/Desktop/ai_engine/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/muhaiminulislam/Desktop/ai_engine/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
